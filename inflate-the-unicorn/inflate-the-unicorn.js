@@ -86,9 +86,9 @@ console.log("Inflate The Unicorn!")
 
 //DRY SOLUTION BELOW
 
-var unicornOne = document.getElementById('unicorn-0') = unicornClick
-var unicornTwo = document.getElementById('unicorn-1') = unicornClick
-var unicornThree = document.getElementById('unicorn-2') = unicornClick
+document.getElementById('unicorn-0').onclick = unicornClick
+document.getElementById('unicorn-1').onclick = unicornClick
+document.getElementById('unicorn-2').onclick = unicornClick
 
 // var inflationLevel0 = 0
 // var inflationLevel1 = 0
